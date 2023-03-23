@@ -1,0 +1,5 @@
+C:\Users\woni7\Desktop\github\SM2\230323_if\obj\Debug\net6.0\230323_if.csproj.AssemblyReference.cache
+C:\Users\woni7\Desktop\github\SM2\230323_if\obj\Debug\net6.0\230323_if.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\woni7\Desktop\github\SM2\230323_if\obj\Debug\net6.0\230323_if.AssemblyInfoInputs.cache
+C:\Users\woni7\Desktop\github\SM2\230323_if\obj\Debug\net6.0\230323_if.AssemblyInfo.cs
+C:\Users\woni7\Desktop\github\SM2\230323_if\obj\Debug\net6.0\230323_if.csproj.CoreCompileInputs.cache
