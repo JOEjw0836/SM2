@@ -1,4 +1,0 @@
-﻿  230223_if.cpp
-C:\Users\woni7\Desktop\github\SM2\230223_if\230223_if.cpp(14,18): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\woni7\Desktop\github\SM2\230223_if\230223_if.cpp(15,18): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-  230223_if.vcxproj -> C:\Users\woni7\Desktop\github\SM2\230223_if\x64\Debug\230223_if.exe
