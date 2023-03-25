@@ -201,6 +201,20 @@ int main() {
 }
 */
 
+/*int main() {
+    int num = 1;
+    int sum = 0;
+
+    while (num != 0) {
+        std::cout << "값을 입력하세요(exit : 0)";
+        std::cin >> num;
+
+        sum = sum + num;
+
+    }
+    std::cout << "총 합은 : " << sum;
+}
+*/
 /*#include <iostream>
 
 int add(int n1, int n2) {
@@ -220,9 +234,26 @@ int minus(int n1, int n2) {
 
         return result2;
     }
-}
+}*/
 
-int multiple(int n1, int n2) {
+//번외 실습
+
+/*int main() {
+    int star;
+    int j;
+
+    std::cout << "총 수 입력";
+    std::cin >> star;
+    for (int i = 1; i <= star; i++) {
+        for (int j = 0; j < i; j++) {
+            std::cout << "*";
+        }
+    }std::cout << std::endl;
+    j = 0;
+}
+*/
+
+/*int multiple(int n1, int n2) {
     int result = n1 * n2;
 
     return result;
@@ -242,7 +273,7 @@ int main() {
 }
 */
 
-#include <iostream>
+/*#include <iostream>
 
 void test(int num) {
 
@@ -257,3 +288,33 @@ void test(int num) {
 int main() {
     test(5);
 }
+*/
+
+//실습문제
+
+/*int compare(int a, int b, int c) {
+    int result;
+    if (a > b && a > c) {
+        result = a;
+    }
+    else if (b > a && b > c) {
+        result = b;
+    }
+    else if (c > a && c > b) {
+        result = c;
+    }
+    else {
+        std::cout << "잘못된 값";
+    }
+    return result;
+}
+
+int main() {
+    int a, b, c;
+
+    std::cin >> a;
+    std::cin >> b;
+    std::cin >> c;
+
+    std::cout << compare(a,b,c);
+}*/
