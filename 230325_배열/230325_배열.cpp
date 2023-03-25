@@ -217,22 +217,23 @@ int main() {
 	int x;
 	int y;
 
-	std::cout << "x를 입력하세요 : ";
-	std::cin >> x;
-	std::cout << "y를 입력하세요 : ";
-	std::cin >> y;
+	
 
-	if (x > 0 && y > 0) {
-		arr(x, y);
-	}
-	else {
-		std::cout << "x와 y 모두 양수를 입력하세요." << std::endl;
+	while (1) {
 		std::cout << "x를 입력하세요 : ";
 		std::cin >> x;
 		std::cout << "y를 입력하세요 : ";
 		std::cin >> y;
-
-		arr(x, y);
+		if (x > 0 && y > 0)
+			break;
+		else
+			std::cout << "x와 y 모두 양수를 입력하세요 : " << std::endl;
 	}
+	arr(x, y);
+
 	return 0;
 }
+
+
+//번외 실습
+
