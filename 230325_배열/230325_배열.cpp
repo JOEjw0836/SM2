@@ -231,7 +231,7 @@ int main() {
 	}
 	arr(x, y);
 
-	return 0;
+	
 }
 
 
