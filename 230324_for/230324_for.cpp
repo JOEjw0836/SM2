@@ -201,6 +201,9 @@ int main() {
 }
 */
 
+
+//실습 4 (선생님 답안)
+
 /*int main() {
     int num = 1;
     int sum = 0;
@@ -215,6 +218,8 @@ int main() {
     std::cout << "총 합은 : " << sum;
 }
 */
+
+
 /*#include <iostream>
 
 int add(int n1, int n2) {
