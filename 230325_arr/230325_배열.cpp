@@ -190,50 +190,65 @@ int main() {
 
 //실습 1 동적 배열 사용해보기
 
+/*
 #include <iostream>
 
-void arr(int x, int y) {
-	int n1 = 0;
-	int** arr = new int* [x];
-
-	for (int i = 0; i < x; i++) {
-		arr[i] = new int[y];
-
-		for (int j = 0; j < y; j++) {
-			n1 = n1 + 1;
-			arr[i][j] = n1;
-			std::cout << arr[i][j] << " ";
-		}
-		std::cout << std::endl;
-	}
-		for (int i = 0; i < x; i++) {
-			delete[] arr;
-		}
-		
-}
-
 int main() {
-
-	int x;
-	int y;
-
-	
-
+	int x, y;
+	int num = 0;
 	while (1) {
 		std::cout << "x를 입력하세요 : ";
 		std::cin >> x;
 		std::cout << "y를 입력하세요 : ";
 		std::cin >> y;
-		if (x > 0 && y > 0)
+		if (x < 0 || y < 0) {
+			std::cout << "x와 y모두 양수를 입력해주세요" << std::endl;
+		}
+		else {
 			break;
-		else
-			std::cout << "x와 y 모두 양수를 입력하세요 : " << std::endl;
+		}
 	}
-	arr(x, y);
+	int** arr = new int* [x];
+	for (int i = 0; i < x; i++) {
+		arr[i] = new int[y];
+	}
+	for (int i = 0; i < x; i++) {
+		for (int j = 0; j < y; j++) {
+			arr[i][j] = ++num;
+			std::cout << arr[i][j] << " ";
+		}
+		std::cout << std::endl;
+	}
+	for (int i = 0; i < x; i++) {
+		delete[] arr[i];
+	}
+	delete[] arr;
+}
+*/
 
+//번외 실습2
+
+/*#include <iostream>
+
+int main() {
 	
+	int num;
+	double sum = 0;
+	
+	
+	std::cout << "학생의 수를 입력하세요 : ";
+	std::cin >> num;
+	int* students = new int[num];
+
+	for (int i = 0; i < num; i++) {
+	
+		std::cout << i + 1 << "번 학생의 성적은 : ";
+		std::cin >> students[i];
+
+		sum = sum + students[i];
+	}
+	std::cout << "성적 평균은 : ";
+	std::cout << double(sum) / num;
 }
 
-
-//번외 실습
-
+*/

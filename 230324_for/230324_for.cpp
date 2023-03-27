@@ -69,9 +69,8 @@ int main() {
 
 
 
-//실습1 : 구구단 만들기
-
-/*#include <iostream>
+/*
+#include <iostream>
 
 int main() {
     std::cout << "구구단 5단" << std::endl;
@@ -95,29 +94,30 @@ int main() {
 }
 */
 
+
 //실습2 1부터 n까지 합 구하기
 
-/*#include <iostream>
-
-int main() {
-    int n;
-    int sum = 0;
-    int num;
-
-    std::cout << "1부터 n까지의 합 구하기" << std::endl << std::endl;
-    std::cout << "숫자(양의 정수)를 입력하세요 : ";
-    std::cin >> n;
-    std::cout << "\n";
-    std::cout << "1부터 " << n << "까지의 합은 : ";
-
-    for (int num = 1; num <= n;  num++) {
-        sum = sum + num;
-    }
-    std::cout << sum;
-
-
-}
-*/
+//#include <iostream>
+//
+//int main() {
+//    int n;
+//    int sum = 0;
+//    int num;
+//
+//    std::cout << "1부터 n까지의 합 구하기" << std::endl << std::endl;
+//    std::cout << "숫자(양의 정수)를 입력하세요 : ";
+//    std::cin >> n;
+//    std::cout << "\n";
+//    std::cout << "1부터 " << n << "까지의 합은 : ";
+//
+//    for (int num = 1; num <= n;  num++) {
+//        sum = sum + num;
+//    }
+//    std::cout << sum;
+//
+//
+//}
+//
 
 
 //실습3 while문 사용해보기
@@ -204,7 +204,9 @@ int main() {
 
 //실습 4 (선생님 답안)
 
-/*int main() {
+/*#include <iostream>
+
+int main() {
     int num = 1;
     int sum = 0;
 
@@ -253,7 +255,8 @@ int minus(int n1, int n2) {
         for (int j = 0; j < i; j++) {
             std::cout << "*";
         }
-    }std::cout << std::endl;
+        std::cout << std::endl;
+    }
     j = 0;
 }
 */
@@ -323,3 +326,38 @@ int main() {
 
     std::cout << compare(a,b,c);
 }*/
+
+/*#include <iostream>
+
+int main() {
+    int num;
+    int j;
+
+    std::cout << "입력한 숫자만큼 *이 표시됩니다 : ";
+    std::cin >> num;
+
+    for (int i = 1; i <= num; i++) {
+        for (int j = 0; j < i; j++) {
+            std::cout << "*";
+        }
+        std::cout << std::endl;
+    }
+   
+    j = 0;
+}
+*/
+/*
+#include <iostream>
+
+void test_3(int num, std::string str) {
+    //함수 본문
+
+    return "test";
+}
+int main() {
+    int num = 5;
+    std::string str = "str";
+    std::cout << test(num, str);
+}
+*/
+
