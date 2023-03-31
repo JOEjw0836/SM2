@@ -1,0 +1,2 @@
+C:\Users\woni7\Desktop\github\SM2\230329_function\x64\Debug\230329_function.exe
+C:\Users\woni7\Desktop\github\SM2\230329_파일입출력, 구조체\x64\Debug\230329_function.exe
