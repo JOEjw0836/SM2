@@ -1,3 +1,0 @@
-﻿  230330_class.cpp
-C:\Users\woni7\Desktop\github\SM2\230330_class\230330_class.cpp(236,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
-C:\Users\woni7\Desktop\github\SM2\230330_class\230330_class.cpp(100,5): message : 'main'의 이전 정의를 참조하십시오.
