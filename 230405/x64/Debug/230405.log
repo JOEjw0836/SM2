@@ -1,3 +1,0 @@
-﻿  230405.cpp
-C:\Users\woni7\Desktop\github\SM2\230405\230405.cpp(53,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  230405.vcxproj -> C:\Users\woni7\Desktop\github\SM2\230405\x64\Debug\230405.exe
