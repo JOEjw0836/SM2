@@ -16,6 +16,7 @@
 //int n = word.size();
 //cout << word[n - 1]; --> 'o'°¡ Ãâ·ÂµÊ
 
+/*
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -57,3 +58,4 @@ int main() {
 			}output.push_back(word);
 	}
 }
+*/
