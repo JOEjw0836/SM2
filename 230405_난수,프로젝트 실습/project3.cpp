@@ -1,4 +1,4 @@
-/*
+
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
@@ -23,13 +23,13 @@ int main()
 			{
 				a = true;
 				break;
-			} // Áßº¹µÈ ¼ıÀÚ ¹æÁö
+			} // ì¤‘ë³µëœ ìˆ«ì ë°©ì§€
 		}
 		if (!a)
 		{
 			com[count] = num;
 			count++;
-		} // Áßº¹ ¾Æ´Ñ°æ¿ì com¿¡ ÀúÀå
+		} // ì¤‘ë³µ ì•„ë‹Œê²½ìš° comì— ì €ì¥
 	}
 
 	count = 0;
@@ -37,11 +37,11 @@ int main()
 	while (count < 6)
 	{
 		bool a = false;
-		cout << count + 1 << "¹øÂ° ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ";
+		cout << count + 1 << "ë²ˆì§¸ ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ";
 		cin >> user_num;
 		if (user_num > 25 || user_num < 1)
 		{
-			cout << "Àß¸øµÈ ¼ıÀÚÀÔ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä. \n";
+			cout << "ì˜ëª»ëœ ìˆ«ìì…ë‹ˆë‹¤. ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”. \n";
 		}
 		else
 		{
@@ -50,7 +50,7 @@ int main()
 				if (user[i] == user_num)
 				{
 					a = true;
-					cout << "ÀÌ¹Ì ÀÔ·ÂµÈ ¼ıÀÚÀÔ´Ï´Ù.\n";
+					cout << "ì´ë¯¸ ì…ë ¥ëœ ìˆ«ìì…ë‹ˆë‹¤.\n";
 					break;
 				}
 			}
@@ -58,18 +58,18 @@ int main()
 			{
 				user[count] = user_num;
 				count++;
-			}// Áßº¹ ¾Æ´Ñ°æ¿ì ÀÔ·ÂÇÑ ¼ıÀÚ°¡ user¿¡ ÀúÀå
+			}// ì¤‘ë³µ ì•„ë‹Œê²½ìš° ì…ë ¥í•œ ìˆ«ìê°€ userì— ì €ì¥
 		}
 	}
 	cout << "-----------------------------------\n";
 
-	cout << endl << "·Î¶Ç ¹øÈ£ : ";
+	cout << endl << "ë¡œë˜ ë²ˆí˜¸ : ";
 	for (int i = 0; i < 6; i++)
 	{
 		cout << com[i] << " ";
 	}
 
-	cout << endl << "³ªÀÇ ¹øÈ£ : ";
+	cout << endl << "ë‚˜ì˜ ë²ˆí˜¸ : ";
 	for (int i = 0; i < 6; i++)
 	{
 		cout << user[i] << " ";
@@ -89,10 +89,9 @@ int main()
 		}
 	}
 
-	cout << endl << "¸ÂÃá °³¼ö¿¡ µû¶ó 1 ~ 7µî±îÁöÀÇ °á°ú°¡ ³ª¿É´Ï´Ù. " << endl;
-	cout << endl << "¸ÂÃá °³¼ö: " << count << endl;
-	cout << 7 - count << "µîÀÔ´Ï´Ù! " << endl;
+	cout << endl << "ë§ì¶˜ ê°œìˆ˜ì— ë”°ë¼ 1 ~ 7ë“±ê¹Œì§€ì˜ ê²°ê³¼ê°€ ë‚˜ì˜µë‹ˆë‹¤. " << endl;
+	cout << endl << "ë§ì¶˜ ê°œìˆ˜: " << count << endl;
+	cout << 7 - count << "ë“±ì…ë‹ˆë‹¤! " << endl;
 
 	return 0;
 }
-*/
