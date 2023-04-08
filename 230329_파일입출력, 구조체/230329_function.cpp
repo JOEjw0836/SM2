@@ -1,6 +1,6 @@
 ﻿//#include <fstream> //file 입출력
 //#include <ifstream> //input file 
-/*
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -24,7 +24,7 @@ int main() {
 	}
 	file.close(); //Hello라는 txt가 없기때문에 fail이 나옴
 					//동일 위치에 txt가 있으면 success가 나옴
-*/
+
 /*
 	string line;
 	////cin >> line; //띄어쓰기 전까지만 인식
@@ -36,7 +36,7 @@ int main() {
 }
 */
 
-/*
+
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -56,13 +56,13 @@ int main() {
 	
 	}
 
-	*/
+
 
 
 //실습0
 
 
-/*
+
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -87,11 +87,11 @@ int main() {
 	infile.close();
 	outfile.close();
 	}
-	*/
+	
 	
 //실습 1
 
-/*
+
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -121,11 +121,11 @@ int main() {
 		cout << line << endl;
 	}
 }
-*/
+
 
 //실습2
 
-/*#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -154,11 +154,11 @@ int main() {
 	else {
 		cout << "로그인 실패";
 	}
-	*/
+	
 
 	//실습2 (선생님)
 
-/*
+
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -194,11 +194,11 @@ int main() {
 	member.close();
 	}
 
-	*/
+	
 
 
 //번외 실습 3.
-/*#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -245,12 +245,12 @@ else cout << "파일을 읽지못했습니다\n";
 
 member.close();
 	}
-	*/
+	
 
 //번외실습 3.(선생님 풀이)
 
 
-/*
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -331,7 +331,7 @@ else cout << "파일을 읽지못했습니다\n";
 
 member.close();
 	}
-*/
+
 
 
 
@@ -349,7 +349,7 @@ member.close();
 
 
 //구조체
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -366,4 +366,3 @@ int main() {
 	cout << r.width * r.height;
 
 }
-*/
