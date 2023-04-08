@@ -23,13 +23,13 @@ int main()
 			{
 				a = true;
 				break;
-			}
+			} // 중복된 숫자 방지
 		}
 		if (!a)
 		{
 			com[count] = num;
 			count++;
-		}
+		} // 중복 아닌경우 com에 저장
 	}
 
 	count = 0;
@@ -58,7 +58,7 @@ int main()
 			{
 				user[count] = user_num;
 				count++;
-			}
+			}// 중복 아닌경우 입력한 숫자가 user에 저장
 		}
 	}
 	cout << "-----------------------------------\n";
