@@ -1,4 +1,4 @@
-/*
+
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
@@ -16,7 +16,7 @@ int main()
 	while (count < 6)
 	{
 		bool a = false;
-		int num = std::rand() % 25 + 1;
+		int num = rand() % 25 + 1;
 		for (int i = 0; i < 6; i++)
 		{
 			if (com[i] == num)
@@ -25,7 +25,7 @@ int main()
 				break;
 			}
 		}
-		if (a == false)
+		if (!a)
 		{
 			com[count] = num;
 			count++;
@@ -54,7 +54,7 @@ int main()
 					break;
 				}
 			}
-			if (a == false)
+			if (!a)
 			{
 				user[count] = user_num;
 				count++;
@@ -95,5 +95,3 @@ int main()
 
 	return 0;
 }
-
-*/
