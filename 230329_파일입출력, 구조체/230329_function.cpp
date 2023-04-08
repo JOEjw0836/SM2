@@ -1,4 +1,4 @@
-﻿//#include <fstream> //file 입출력
+//#include <fstream> //file 입출력
 //#include <ifstream> //input file 
 
 #include <iostream>
