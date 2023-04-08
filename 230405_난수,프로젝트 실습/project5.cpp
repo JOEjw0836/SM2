@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -12,7 +13,7 @@ int main() {
 
 	bool duplication = false;
 
-	/*cout << "具备霸烙" << endl;*/
+	cout << "具备霸烙" << endl;
 	while (count < 3) {
 		int num = rand() % 9 + 1;
 		for (int i = 0; i < 3; i++) {
@@ -68,3 +69,6 @@ int main() {
 		}
 	} while (duplication == false);
 }
+*/
+
+
