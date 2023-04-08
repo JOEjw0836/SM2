@@ -1,4 +1,4 @@
-﻿//멤버 : 변수(필드), 메소드들을 통틀어 이르는 말
+//멤버 : 변수(필드), 메소드들을 통틀어 이르는 말
 
 #include <iostream>
 
@@ -39,7 +39,7 @@ int main() {
 
 //실습1 static 멤버
 
-/*
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -123,11 +123,11 @@ int main() {
 		}
 	}
 }
-*/
+
 
 //실습2 static 멤버
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -150,7 +150,6 @@ int main() {
 		cin >> name;
 	}
 }
-*/
 
 
 
@@ -171,7 +170,8 @@ int main() {
 
 
 
-/*
+
+
 #include <iostream>
 using std::cout;
 using std::cin;
@@ -214,4 +214,3 @@ int main() {
 	cout << "인원 : " << Person::getCnt() << endl;
 	return 0;
 }
-*/
