@@ -1,22 +1,22 @@
-//ÄÚµå°¡ ½ÇÇàµÇ´Â µ¿¾ÈÀÇ ½Ã°£ ÃøÁ¤ÇÏ·Á¸é
+//ì½”ë“œê°€ ì‹¤í–‰ë˜ëŠ” ë™ì•ˆì˜ ì‹œê°„ ì¸¡ì •í•˜ë ¤ë©´
 //#include <ctime>
 //int main(void) {
 //	clock_t startTime = clock();
 //
 //	clock_t endTime = clock();
-//	cout << "°É¸°½Ã°£" << (endTime - startTime) / CLOCKS_PER_SEC;
+//	cout << "ê±¸ë¦°ì‹œê°„" << (endTime - startTime) / CLOCKS_PER_SEC;
 //}
 // 
-//StringÀ¸·Î µé¾î¿Â ´Ü¾î¿¡¼­ ¸Ç ¾Õ ±ÛÀÚ¿Í ¸Ç µÚ ±ÛÀÚ °¡Á®¿À±â
-//[¸Ç ¾Õ±ÛÀÚ]
+//Stringìœ¼ë¡œ ë“¤ì–´ì˜¨ ë‹¨ì–´ì—ì„œ ë§¨ ì• ê¸€ìì™€ ë§¨ ë’¤ ê¸€ì ê°€ì ¸ì˜¤ê¸°
+//[ë§¨ ì•ê¸€ì]
 //string word = "hello";
-//cout << word[0]; --> 'h'°¡ Ãâ·ÂµÊ
-//[¸Ç µŞ±ÛÀÚ]
+//cout << word[0]; --> 'h'ê°€ ì¶œë ¥ë¨
+//[ë§¨ ë’·ê¸€ì]
 //string word = "hello";
 //int n = word.size();
-//cout << word[n - 1]; --> 'o'°¡ Ãâ·ÂµÊ
+//cout << word[n - 1]; --> 'o'ê°€ ì¶œë ¥ë¨
 
-/*
+
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -31,31 +31,30 @@ int main() {
 	while (1) {
 		for (int i = 0; i < output.size(); i++) 
 			cout << " --> " << output.at(i);
-			cout << endl << "´ÙÀ½ ´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
+			cout << endl << "ë‹¤ìŒ ë‹¨ì–´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ";
 			cin >> word;
 			cout << endl;
 			
 			clock_t endTime = clock();
 			int timer = (endTime - startTime) / CLOCKS_PER_SEC;
-			cout << timer << "ÃÊ °æ°ú" << endl;
+			cout << timer << "ì´ˆ ê²½ê³¼" << endl;
 
 			if (timer > 20) {
-				cout << "Å¸ÀÓ¿À¹ö! °ÔÀÓÁ¾·á!!" << endl;
-				cout << "ÃÑ ÀÔ·ÂÇÑ ´Ü¾î ¼ö : " << output.size() - 1 << endl;
+				cout << "íƒ€ì„ì˜¤ë²„! ê²Œì„ì¢…ë£Œ!!" << endl;
+				cout << "ì´ ì…ë ¥í•œ ë‹¨ì–´ ìˆ˜ : " << output.size() - 1 << endl;
 				break;
 			}
 			int a = output.back().size();
 			if (word[0] != output.back()[a - 1]) {
-				cout << "Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù." << endl;
+				cout << "ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤." << endl;
 				continue;
 			}
 			for (int i = 0; i < output.size(); i++){
 				if (word == output.at(i)) {
-				cout << "ÀÌ¹Ì ¾´ ´Ü¾îÀÔ´Ï´Ù! °ÔÀÓÁ¾·á!!" << endl;
-				cout << "ÃÑ ÀÔ·ÂÇÑ ´Ü¾î ¼ö : " << output.size() - 1 << endl;
+				cout << "ì´ë¯¸ ì“´ ë‹¨ì–´ì…ë‹ˆë‹¤! ê²Œì„ì¢…ë£Œ!!" << endl;
+				cout << "ì´ ì…ë ¥í•œ ë‹¨ì–´ ìˆ˜ : " << output.size() - 1 << endl;
 				return 0;
 				}
 			}output.push_back(word);
 	}
 }
-*/
