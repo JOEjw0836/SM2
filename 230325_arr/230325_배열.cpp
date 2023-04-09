@@ -1,4 +1,4 @@
-﻿/*#include <iostream>
+#include <iostream>
 
 int main() {
 	//배열문 : 변수[크기] = { "1", "2", "3",,,} --> 선언 시 크기 정해야함
@@ -27,7 +27,7 @@ int main() {
 	for (int i = 0; i < sizeof(fruit) / sizeof(fruit[0]); i++) {
 		std::cout << fruit[i] << std::endl;
 	}
-}*/
+}
 
 //다차원 배열
 
@@ -45,12 +45,12 @@ int main() {
 			std::cout << word[i][j] << " ";
 		}std::cout << std::endl;
 	}
-}*/
+}
 	//for - each 문법 : ex) for(auto n : num2){};
 
 //실습1 배열 사용해보기
 
-/*
+
 #include <iostream>
 
 int main() {
@@ -61,12 +61,12 @@ int main() {
 		std::cout << city[i] << std::endl;
 	}
 }
-*/
+
 
 
 //실습2 배열 사용해보기
 
-/*#include <iostream>
+#include <iostream>
 
 int main() {
 
@@ -85,11 +85,11 @@ int main() {
 	
 
 	
-}*/
+}
 
 //실습3 배열 활용하기
 
-/**#include <iostream>
+#include <iostream>
 
 int main() {
 	
@@ -103,55 +103,55 @@ int main() {
 		sum = sum + grade[i];
 	}
 	std::cout << "성적평균 : " << double(sum)/5;
-}*/
+}
 
 //동적배열과 포인터
 
-//int n = 3;
-//int* p = &n; --> p에 n의 주소값을 저장한다는 의미
+int n = 3;
+int* p = &n; --> p에 n의 주소값을 저장한다는 의미
 
-//std::cout << p;
-//그냥 변수이름으로 접근하면, 주소값 출력(n의 주소값)
+std::cout << p;
+그냥 변수이름으로 접근하면, 주소값 출력(n의 주소값)
 
-//std::cout << *p;
-//3이 출력, p가 가리키는 주소에 들어간 실제 값을 출력
+std::cout << *p;
+3이 출력, p가 가리키는 주소에 들어간 실제 값을 출력
 
-//#include <iostream>
-//
-//int main() {
-//	std::string str = "aaa";
-//	std::string* str_p = &str;
-//
-//	std::cout << str_p << std::endl;
-//	std::cout << *str_p;
-//}
+#include <iostream>
 
-//#include <iostream>
-//int main() {
-//	
-//	int n = 3;
-//	int& num = n;
-//	
-//	std::cout << n << std::endl;
-//	std::cout << num << std::endl;
-//	std::cout << &n << std::endl;
-//	//std::cout << *num << std::endl;
-//	std::cout << &num << std::endl;
-//}
+int main() {
+	std::string str = "aaa";
+	std::string* str_p = &str;
 
-//#include <iostream>
-//
-//int main() {
+	std::cout << str_p << std::endl;
+	std::cout << *str_p;
+}
+
+#include <iostream>
+int main() {
+	
+	int n = 3;
+	int& num = n;
+	
+	std::cout << n << std::endl;
+	std::cout << num << std::endl;
+	std::cout << &n << std::endl;
+	//std::cout << *num << std::endl;
+	std::cout << &num << std::endl;
+}
+
+#include <iostream>
+
+int main() {
 	//포인터를 이용하면, 동적 메모리를 생성할 수 있다.
 	//포인터가 나오기 전의 변수들은, 정적 메모리
 
-	//int n = 3;
-	//int* p = &n;
-	//int* p = new int; //동적 메모리 할당
+	int n = 3;
+	int* p = &n;
+	int* p = new int; //동적 메모리 할당
 
-	//delete p; // p가 필요없어지는 순간에 제거해줘야함
+	delete p; // p가 필요없어지는 순간에 제거해줘야함
 
-	/*int num;
+	int num;
 	std::cout << "크기를 입력하세요";
 	std::cin >> num;
 	int* arr = new int[num];
@@ -162,35 +162,35 @@ int main() {
 	for (int i = 0; i < num; i++) {
 		std::cout << arr[i] << " ";
 	}
-	delete[] arr;*/
+	delete[] arr;
 
 	//num * num 행렬 만들기
 
-//	int num = 5;
-//	int** arr = new int* [num]; //2차 행렬이기 때문
-//
-//		for (int i = 0; i < num; i++) {
-//			arr[i] = new int[num];
-//		}
-//		for (int i = 0; i < num; i++) {
-//			for (int j = 0; j < num; j++) {
-//				arr[i][j] = 1;
-//				std::cout << arr[i][j] << " ";
-//			}
-//		}std::cout << std::endl;
-//
-//		for (int i = 0; i < num; i++) {
-//			delete[] arr[i];
-//		}
-//		delete[] arr;
-//
-//}
+	int num = 5;
+	int** arr = new int* [num]; //2차 행렬이기 때문
+
+		for (int i = 0; i < num; i++) {
+			arr[i] = new int[num];
+		}
+		for (int i = 0; i < num; i++) {
+			for (int j = 0; j < num; j++) {
+				arr[i][j] = 1;
+				std::cout << arr[i][j] << " ";
+			}
+		}std::cout << std::endl;
+
+		for (int i = 0; i < num; i++) {
+			delete[] arr[i];
+		}
+		delete[] arr;
+
+}
 
 
 
 //실습 1 동적 배열 사용해보기
 
-/*
+
 #include <iostream>
 
 int main() {
@@ -224,11 +224,11 @@ int main() {
 	}
 	delete[] arr;
 }
-*/
+
 
 //번외 실습2
 
-/*#include <iostream>
+#include <iostream>
 
 int main() {
 	
@@ -251,4 +251,4 @@ int main() {
 	std::cout << double(sum) / num;
 }
 
-*/
+
