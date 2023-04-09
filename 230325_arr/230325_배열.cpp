@@ -11,7 +11,7 @@ int main() {
 	//fruit[1] = "banana";
 	//fruit[2] = "grape";
 
-	/*std::string fruit[3] = {"apple", "banana", "grape"};
+	std::string fruit[3] = {"apple", "banana", "grape"};
 
 	std::cout << "fruit" << std::endl;
 	std::cout << "-----" << std::endl;
