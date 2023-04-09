@@ -1,4 +1,4 @@
-﻿/*#include <iostream>
+#include <iostream>
 #include <vector>
 
 int main() {
@@ -13,13 +13,13 @@ int main() {
 		std::cout << v.at(i) << std::endl;
 
 	}
-	*/
+	
 	
 	
 //실습 1 vetor사용해보기
 
 
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 
 int main(){
@@ -58,11 +58,11 @@ int main(){
 	
 	
 }
-*/
+
 
 //실습2 vector 사용해보기
 
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 
 int main() {
@@ -87,9 +87,9 @@ int main() {
 	std::cout << "사용자가 입력한 수의 합은 : ";
 	std::cout << sum;
 }
-*/
 
-/*
+
+
 #include <iostream>
 #include <vector>
 
@@ -116,10 +116,10 @@ int main() {
 	cout << test::num << endl;
 	cout << test_1::sum << endl;
 }
-*/
 
 
-/*
+
+
 #include <iostream>
 #include <vector>
 
@@ -158,11 +158,11 @@ int main() {
 		cout << "은행이 잘못되었습니다";
 	}
 }
-*/
+
 
 //실습 1 namespace 사용해보기
 
-/*
+
 #include <iostream>
 #include <vector>
 
@@ -185,6 +185,6 @@ int main() {
 
 	
 }
-*/
+
 
 
