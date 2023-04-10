@@ -1,4 +1,4 @@
-﻿/*
+
 #include <iostream>
 using namespace std;
 class Person {
@@ -37,10 +37,10 @@ int main() {
 	Person p = Person("조장원");
 	Student s = Student("조장원",27);
 }
-*/
+
 
 //실습1 상속 사용해보기
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -100,12 +100,12 @@ int main() {
 	cout << endl;
 	t.area();
 }
-*/
+
 
 
 //실습1 (선생님)
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -153,11 +153,11 @@ int main() {
 	t.printInfo();
 	t.area();
 }
-*/
+
 
 //오버라이딩 수업내용
 
-/*
+
 #include <iostream>
 using namespace std;
 class Person {
@@ -202,11 +202,11 @@ int main() {
 	s.sleep();
 	cout << s.override_test(10);
 }
-*/
+
 
 //실습 1. 오버라이딩 이해하기
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -265,11 +265,11 @@ int main() {
 	cout << endl;
 	B.lunch();
 }
-*/
+
 
 //실습 1. 오버라이딩 (선생님)
 
-/*
+
 #include <iostream>
 using namespace std;
 
@@ -314,4 +314,4 @@ int main() {
 	k.lunch();
 	b.lunch();
 }
-*/
+
