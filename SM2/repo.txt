@@ -1,0 +1,35 @@
+repo만들기
+settings -> collaborators ->add people ->
+정보입력
+이렇게 해야 push허용됨
+<local에 clone> --> git bash
+mkdir chatting
+cd chatting/
+git clone (복사한 주소)
+cd  (git repo 이름)
+<branch 만들기>
+git branch "브랜치 명"
+git checkout "브랜치 명"
+<작업 후 완료 시 >
+add, commit -m, push
+git push origin "브랜치명"
+<main브런치와 내 브런치 병합>
+settings에서 automatically delete head branch 체크
+(병합이 일어나면 기존 브랜치를 자동으로 삭제)
+<pull request>
+repo 들어감 -> new pull request 누름 -> base = main , compare = 내 브랜치 
+-> create pull request -> merge pull request ->code에서 main브런치에 내 브런치
+이동했는지 확인
+-------------------------------------
+새로운 브랜치로 다시 시작
+<git bash에서>
+git checkout main
+(code .)
+git pull
+git checkout -b  "브랜치명"
+-----------
+<branch확인>
+local branch : git branch
+remote branch : git branch -r
+<branch 삭제>
+git branch -D  "브랜치명"
